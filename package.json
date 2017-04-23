@@ -1,0 +1,23 @@
+{
+  "name": "events-scrapper",
+  "version": "1.0.0",
+  "description": "Scraps sites for live music details.",
+  "main": "index.js",
+  "author": "Chris Tram",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^3.8.3",
+    "scrape-it": "^3.3.2",
+    "scraperjs": "^1.2.0",
+    "underscore": "^1.8.3"
+  },
+  "scripts": {
+    "build": "babel index.js -d lib",
+    "start": "npm run build && node lib/index.js",
+    "debug": "npm run build && node debug lib/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
+  }
+}

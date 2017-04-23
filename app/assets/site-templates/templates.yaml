@@ -1,0 +1,11 @@
+---
+site: Hot Club of SF
+band: Hot Club of SF
+url: https://www.hotclubsf.com/events
+selector event: '.eventlist-event'
+selector title: '.entry-title'
+selector location: 'p.location strong'
+selector date-general: 'p.date time'
+selector date-day : ''
+selector date-time: '.event-time-12hr'
+selector description: '.eventlist-description'
