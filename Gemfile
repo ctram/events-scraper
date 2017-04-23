@@ -28,7 +28,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'haml-rails'
 gem 'react-rails'
 gem 'webpacker', github: 'rails/webpacker'
 gem 'grape'
