@@ -18,9 +18,7 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '~> 0.4.0', group: :
-
-gem 'underscore-rails'
+gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -31,6 +29,8 @@ gem 'underscore-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'react-rails'
+gem 'webpacker', github: 'rails/webpacker'
 gem 'grape'
 gem 'grape-entity'
 
